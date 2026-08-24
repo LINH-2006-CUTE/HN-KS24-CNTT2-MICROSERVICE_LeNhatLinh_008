@@ -10,4 +10,4 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:/config-repo #config-repo sẽ để trong folder resource để đọc các cấu hình service con
+          search-locations: classpath:/config-repo # folder config-repo sẽ để trong folder resource để đọc các cấu hình service con
