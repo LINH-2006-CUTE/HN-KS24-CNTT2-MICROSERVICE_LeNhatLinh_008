@@ -7,22 +7,42 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="eureka-server.main" />
-        <module name="eureka-server.test" />
+        <module name="event-service.main" />
+        <module name="event-service.test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="category-service.main" target="21" />
+      <module name="category-service.test" target="21" />
+      <module name="organize-service" target="21" />
+      <module name="product-service" target="21" />
+      <module name="product-service.main" target="21" />
+      <module name="product-service.test" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="api-gateway.main" options="-parameters" />
       <module name="api-gateway.test" options="-parameters" />
+      <module name="category-service.main" options="-parameters" />
+      <module name="category-service.test" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="config-server.main" options="-parameters" />
       <module name="config-server.test" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server.main" options="-parameters" />
       <module name="eureka-server.test" options="-parameters" />
+      <module name="event-service" options="-parameters" />
+      <module name="event-service.main" options="-parameters" />
+      <module name="event-service.test" options="-parameters" />
+      <module name="organize-service" options="-parameters" />
+      <module name="organizer-service" options="-parameters" />
+      <module name="organizer-service.main" options="-parameters" />
+      <module name="organizer-service.test" options="-parameters" />
+      <module name="product-service" options="-parameters" />
+      <module name="product-service.main" options="-parameters" />
+      <module name="product-service.test" options="-parameters" />
     </option>
   </component>
 </project>
